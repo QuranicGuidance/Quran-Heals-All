@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Islamic Solutions</title>
+    <title>Quran Companion</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Digital Islamic Solutions</h1>
-    <p>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+    <header>
+        <h1>Quran Companion</h1>
+        <p>Find solutions to your problems through the Quran</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search your problem..." onkeyup="searchAyahs()">
+    </div>
+
+    <div id="results"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-<link rel="stylesheet" href="style.css">
+
