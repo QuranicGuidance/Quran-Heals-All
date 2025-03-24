@@ -16,4 +16,8 @@ function searchAyahs() {
             resultsDiv.appendChild(ayahDiv);
         });
     }
-}
+    
+// Dark Mode Feature
+document.getElementById("darkModeBtn").addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+});
